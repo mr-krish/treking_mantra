@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import './App.css';
 
 const destinationsData = [
-  { id: 1, name: "Amba Mata Trek", location: "Jaipur", difficulty: "Hard", bestSeason: "April - May", image: "https://trekkingmantra.com/uploads/db5b5426a5e69560573edb16b1933305.jpg" },
-  { id: 2, name: "Mariyam Mahal Trek", location: "Jaipur", difficulty: "Moderate", bestSeason: "May - September", image: "https://trekkingmantra.com/uploads/0aa1b3ca9ad18eb8972e427fa34fc029.jpg" },
-  { id: 3, name: "Twin Tower Trek", location: "Jaipur", difficulty: "Hard", bestSeason: "January - March", image: "https://trekkingmantra.com/uploads/0d7d2f2c2b39a7afcdc46bd502759521.jpg" },
-  { id: 4, name: "Heritage Valley", location: "Jaipur", difficulty: "Moderate", bestSeason: "March - May", image: "https://trekkingmantra.com/uploads/f6238ca4a7d3725fc2e46a0ada803f26.jpg" },
-  { id: 5, name: "Kedarnath Trek", location: "Jaipur", difficulty: "Moderate", bestSeason: "October - April", image: "https://trekkingmantra.com/uploads/6928f69c473be54abf06e3bfc114330c.jpg" },
-  { id: 6, name: "Chabutra Trek", location: "Jaipur", difficulty: "Easy", bestSeason: "June - September", image: "https://trekkingmantra.com/uploads/3776b3c96cf8aa34d7305037df4efa91.jpg" },
-  { id: 7, name: "Ban Ki Ghati Trek", location: "Jaipur", difficulty: "Moderate", bestSeason: "June - September", image: "https://trekkingmantra.com/uploads/7ea2befc875b6e3951673db5a15301fb.jpeg" },
-  { id: 8, name: "Saan Valley Trek", location: "Jaipur", difficulty: "Hard", bestSeason: "July - August", image: "https://trekkingmantra.com/uploads/a539fc1172e50136c2b60725e5535036.jpeg" },
-  { id: 9, name: "Achrol Fort trek", location: "Jaipur", difficulty: "Easy", bestSeason: "November - March", image: "https://trekkingmantra.com/uploads/bf505340d5bea4af46db8730892bd2e5.jpg" },
-  { id: 10, name: "Mount Sumel Trek", location: "Jaipur", difficulty: "Moderate", bestSeason: "September - November", image: "https://trekkingmantra.com/uploads/6ec041b4b94c0b86f41896003010419a.PNG" },
+  { id: 1, name: "Amba Mata Trek", location: "Jaipur", difficulty: "Hard", bestSeason: "April - May", image: "/amba.jpg" },
+  { id: 2, name: "Mariyam Mahal Trek", location: "Jaipur", difficulty: "Moderate", bestSeason: "May - September", image: "/Mariyam.jpg" },
+  { id: 3, name: "Twin Tower Trek", location: "Jaipur", difficulty: "Hard", bestSeason: "January - March", image: "/Twin.jpg" },
+  { id: 4, name: "Heritage Valley", location: "Jaipur", difficulty: "Moderate", bestSeason: "March - May", image: "/Heritage.jpg" },
+  { id: 5, name: "Kedarnath Trek", location: "Jaipur", difficulty: "Moderate", bestSeason: "October - April", image: "/Kedarnath.jpg" },
+  { id: 6, name: "Chabutra Trek", location: "Jaipur", difficulty: "Easy", bestSeason: "June - September", image: "/Chabutra.jpg" },
+  { id: 7, name: "Ban Ki Ghati Trek", location: "Jaipur", difficulty: "Moderate", bestSeason: "June - September", image: "/Baan.jpeg" },
+  { id: 8, name: "Saan Valley Trek", location: "Jaipur", difficulty: "Hard", bestSeason: "July - August", image: "/saan.jpeg" },
+  { id: 9, name: "Achrol Fort trek", location: "Jaipur", difficulty: "Easy", bestSeason: "November - March", image: "/Achrol.jpg" },
+  { id: 10, name: "Mount Sumel Trek", location: "Jaipur", difficulty: "Moderate", bestSeason: "September - November", image: "/Mount.png" },
 ];
 
 function App() {
